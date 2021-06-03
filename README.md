@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. Please download audio data. [LINK]() 
+1. Please download audio data. [LINK](https://drive.google.com/file/d/1opqYQsVCIDG7y1Kd7Kziq39qvW1XVlPC/view?usp=sharing) 
 
 2. Please download the source code and run ```./install.sh```. 
 
