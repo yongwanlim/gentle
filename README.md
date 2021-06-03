@@ -8,4 +8,5 @@ Please download the source code and run ```./install.sh```. Then run ```python3 
 git clone git@github.com:yongwanlim/gentle.git
 cd gentle
 ./install.sh
+python3 main_gentle_aligner_75sub.py
 ```
