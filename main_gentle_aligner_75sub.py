@@ -8,8 +8,8 @@ from align_wrapper import align
 def run_bash(cmd):
     p = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE)
 
-data_dir = '/Users/yongwanlim/Desktop/dataset_2drt_video_only/' # parent data directory: You can change this directory to ownCloud
-out_dir = '/Users/yongwanlim/Desktop/dataset_2drt_video_only/out_alignment_75sub/'  # output directory
+data_dir = '~/audio_only/' # parent data directory: You can change this directory to ownCloud
+out_dir = '~/audio_only/out_alignment_75sub/'  # output directory
 
 dir_list = next(os.walk(data_dir))[1]  # List of subjects
 
@@ -34,7 +34,7 @@ for each_subj in sorted(dir_list):
 
     # make timestamp directory
     # out_timestamp_dir = os.path.join(out_dir, each_subj, 'tstamp')
-    out_timestamp_dir = os.path.join(out_dir, 'forcealign_test')
+    out_timestamp_dir = os.path.join(out_dir, 'forcealign')
     if not os.path.exists(out_timestamp_dir):
         os.makedirs(out_timestamp_dir)
 
